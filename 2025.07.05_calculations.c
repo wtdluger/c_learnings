@@ -7,7 +7,6 @@ const double PI = 3.141592654;
 double cylinderVolume(double radius, double height)
 {
     double volume = PI*pow(radius, 2.0)*height;
-    // double volume = PI*radius*radius*height;
     return volume;
 }
 
@@ -15,7 +14,6 @@ double cylinderVolume(double radius, double height)
 double sphereVolume(double radius)
 {
     double volume = 4.0*PI*pow(radius, 3.0)/3.0;
-    // double volume = 4.0*PI*radius*radius*radius/3.0;
     return volume;
 }
 
